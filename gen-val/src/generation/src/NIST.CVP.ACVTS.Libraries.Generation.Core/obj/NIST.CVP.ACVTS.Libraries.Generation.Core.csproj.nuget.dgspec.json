@@ -1,0 +1,1215 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\generation\\src\\NIST.CVP.ACVTS.Libraries.Generation.Core\\NIST.CVP.ACVTS.Libraries.Generation.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Common",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Math",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Crypto.Common",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\generation\\src\\NIST.CVP.ACVTS.Libraries.Generation.Core\\NIST.CVP.ACVTS.Libraries.Generation.Core.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\generation\\src\\NIST.CVP.ACVTS.Libraries.Generation.Core\\NIST.CVP.ACVTS.Libraries.Generation.Core.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Generation.Core",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\generation\\src\\NIST.CVP.ACVTS.Libraries.Generation.Core\\NIST.CVP.ACVTS.Libraries.Generation.Core.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\generation\\src\\NIST.CVP.ACVTS.Libraries.Generation.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Crypto.Oracle",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Oracle\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\orleans\\src\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\orleans\\src\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Orleans.Client": {
+              "target": "Package",
+              "version": "[3.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Orleans.Clustering.AdoNet": {
+              "target": "Package",
+              "version": "[3.8.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Common\\NIST.CVP.ACVTS.Libraries.Common.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\common\\src\\NIST.CVP.ACVTS.Libraries.Math\\NIST.CVP.ACVTS.Libraries.Math.csproj"
+              },
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\crypto\\src\\NIST.CVP.ACVTS.Libraries.Crypto.Common\\NIST.CVP.ACVTS.Libraries.Crypto.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\orleans\\src\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\orleans\\src\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.csproj",
+        "projectName": "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces",
+        "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\orleans\\src\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\coel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\orleans\\src\\NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\coel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\coel\\Documents\\ACVP-Server\\gen-val\\src\\oracle\\src\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions\\NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.23, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "target": "Package",
+              "version": "[3.8.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.8.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Autofac": "8.0.0",
+            "CommandLineArgumentsParser": "3.0.23",
+            "CsvHelper": "28.0.1",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "6.0.1",
+            "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+            "Microsoft.Extensions.Logging.Console": "6.0.0",
+            "Microsoft.Extensions.Logging.Debug": "6.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.NETCore.DotNetHostPolicy": "6.0.9",
+            "Microsoft.NETCore.Targets": "5.0.0",
+            "Microsoft.Orleans.Client": "3.8.0",
+            "Microsoft.Orleans.Clustering.AdoNet": "3.8.0",
+            "Microsoft.Orleans.CodeGenerator.MSBuild": "3.8.0",
+            "Microsoft.Orleans.Core.Abstractions": "3.8.0",
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.8.0",
+            "Microsoft.Orleans.Server": "3.8.0",
+            "Mighty": "3.2.0",
+            "Moq": "4.20.70",
+            "MySql.Data": "8.0.33",
+            "Newtonsoft.Json": "13.0.3",
+            "NIST.CVP.ACVTS.Libraries.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Common": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Crypto.Oracle": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Generation.Core": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Math": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains": "3.0.0",
+            "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0",
+            "NIST.CVP.ACVTS.Tests.Core": "3.0.0",
+            "NLog": "5.3.2",
+            "NUnit": "4.1.0",
+            "NUnit.Analyzers": "4.2.0",
+            "NUnit3TestAdapter": "4.5.0",
+            "OrleansDashboard": "3.6.2",
+            "Serilog": "4.0.0",
+            "Serilog.AspNetCore": "6.0.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.2",
+            "Serilog.Sinks.Console": "4.1.1",
+            "Serilog.Sinks.File": "6.0.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Text.Json": "6.0.6",
+            "TeamCity.VSTest.TestAdapter": "1.0.40"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

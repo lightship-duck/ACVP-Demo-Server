@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NIST.CVP.ACVTS.Libraries.Generation.Core</id>
+    <version>3.0.0</version>
+    <authors>NIST,HII-TSD</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>ACVP Core testing library.  Implementations against this library can be used to generate and validate test vectors against a specific cryptographic algorithm.</description>
+    <tags>nist cryptography protocol cryptographic-algorithm-validations nist-approved-algorithms</tags>
+    <repository type="git" commit="b121fee031dc65d32c96f4109a42a10dacbe2076" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NIST.CVP.ACVTS.Libraries.Common" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="NIST.CVP.ACVTS.Libraries.Math" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="NIST.CVP.ACVTS.Libraries.Crypto.Common" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="NIST.CVP.ACVTS.Libraries.Crypto.Oracle" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="NIST.CVP.ACVTS.Libraries.Oracle.Abstractions" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Autofac" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="NLog" version="5.3.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\coel\Documents\ACVP-Server\gen-val\src\generation\src\NIST.CVP.ACVTS.Libraries.Generation.Core\bin\Release\net8.0\NIST.CVP.ACVTS.Libraries.Generation.Core.dll" target="lib\net8.0\NIST.CVP.ACVTS.Libraries.Generation.Core.dll" />
+  </files>
+</package>

@@ -1,0 +1,26 @@
+﻿{
+  "ApplicationName": "Gen/Val runner",
+  "EnvironmentConfig": null,
+  "OrleansConfig": {
+    "OrleansNodeConfig": [
+      {
+        "HostName": "192.168.30.205",
+        "MaxConcurrentWork": 12
+      }
+    ],
+    "OrleansSiloPort": 11111,
+    "OrleansGatewayPort": 30000,
+    "ClusterId": "acvp-cluster",
+    "MinimumLogLevel": "Information",
+    "OrleansDashboardPort": 8081,
+    "FallBackMinimumCores": 3,
+    "LoadSheddingCpuThreshold": 0,
+    "MaxWorkItemsToQueuePerGenValInstance": 100,
+    "TimeoutRetryAttempts": 15,
+    
+    "ClusteringType": "AdoNet",
+    "ClusteringInvariant": "MySql.Data.MySqlClient",
+    "ClusteringConnectionString": "Server=192.168.30.205;Port=3306;Database=OrleansCluster;Uid=orleans;Pwd=orleans123;SslMode=none;AllowPublicKeyRetrieval=true",    
+    "AdvertisedIP": "192.168.30.205"
+  }
+}

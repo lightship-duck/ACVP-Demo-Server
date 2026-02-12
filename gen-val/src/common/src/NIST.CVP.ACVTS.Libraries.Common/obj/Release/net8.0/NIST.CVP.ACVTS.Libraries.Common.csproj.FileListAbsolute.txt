@@ -1,0 +1,13 @@
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\bin\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.deps.json
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\bin\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.dll
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\bin\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.pdb
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.csproj.AssemblyReference.cache
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.AssemblyInfoInputs.cache
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.AssemblyInfo.cs
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.csproj.CoreCompileInputs.cache
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.sourcelink.json
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.dll
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\refint\NIST.CVP.ACVTS.Libraries.Common.dll
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\NIST.CVP.ACVTS.Libraries.Common.pdb
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\obj\Release\net8.0\ref\NIST.CVP.ACVTS.Libraries.Common.dll

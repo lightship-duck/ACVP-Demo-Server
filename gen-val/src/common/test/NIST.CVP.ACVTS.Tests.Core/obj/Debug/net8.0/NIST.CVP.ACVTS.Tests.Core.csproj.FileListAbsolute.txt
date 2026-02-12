@@ -1,0 +1,13 @@
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\bin\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.deps.json
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\bin\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.dll
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\bin\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.pdb
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.csproj.AssemblyReference.cache
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.AssemblyInfoInputs.cache
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.AssemblyInfo.cs
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.csproj.CoreCompileInputs.cache
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.sourcelink.json
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.dll
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\refint\NIST.CVP.ACVTS.Tests.Core.dll
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\NIST.CVP.ACVTS.Tests.Core.pdb
+C:\Users\coel\Documents\ACVP-Server\gen-val\src\common\test\NIST.CVP.ACVTS.Tests.Core\obj\Debug\net8.0\ref\NIST.CVP.ACVTS.Tests.Core.dll
