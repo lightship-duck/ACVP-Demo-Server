@@ -1,0 +1,4 @@
+Replace <RID> with the appropriate Runtime Identifier (e.g., win-x64 for Windows 64-bit, linux-x64 for Linux 64-bit, osx-x64 for macOS 64-bit). 
+This will create an exe with all the dll's and files required for the application to run standalone. 
+
+dotnet publish -c Release -r <RID> --self-contained true -p:PublishSingleFile=true -o ./publish-win
