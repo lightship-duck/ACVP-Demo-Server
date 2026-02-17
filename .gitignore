@@ -50,7 +50,5 @@ Import Schema Logs
 *.obj
 *.dylib
 *.local.json
-/Directory.Build.props
-/Directory.Packages.props
 version.txt
 gen-val/src/solutions/all/qodana.yaml
