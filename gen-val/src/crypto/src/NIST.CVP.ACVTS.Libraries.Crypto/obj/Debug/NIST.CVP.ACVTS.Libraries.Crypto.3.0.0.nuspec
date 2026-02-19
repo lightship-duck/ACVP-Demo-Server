@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>ACVP Cryptography implementations and helper methods.</description>
     <tags>nist cryptography protocol cryptographic-algorithm-validations nist-approved-algorithms</tags>
-    <repository type="git" commit="5307a0bea285bb85d6aa74000c3da9820bcff5f7" />
+    <repository type="git" commit="79ec4eaea9659abd936164aa3b17c2ef2d173293" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="NIST.CVP.ACVTS.Libraries.Math" version="3.0.0" exclude="Build,Analyzers" />
@@ -18,6 +18,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="/home/ubuntu/ACVP-Demo-Server/gen-val/src/crypto/src/NIST.CVP.ACVTS.Libraries.Crypto/bin/Debug/net8.0/NIST.CVP.ACVTS.Libraries.Crypto.dll" target="lib/net8.0/NIST.CVP.ACVTS.Libraries.Crypto.dll" />
+    <file src="C:\Users\coel\Documents\GitHub\ACVP-Demo-Server\gen-val\src\crypto\src\NIST.CVP.ACVTS.Libraries.Crypto\bin\Debug\net8.0\NIST.CVP.ACVTS.Libraries.Crypto.dll" target="lib\net8.0\NIST.CVP.ACVTS.Libraries.Crypto.dll" />
   </files>
 </package>

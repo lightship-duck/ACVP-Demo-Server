@@ -100,6 +100,12 @@ namespace NIST.CVP.ACVTS.Orleans.ServerHost
                 // Auto-detect IP
                 options.AdvertisedIPAddress = GetLocalIPAddress();
             }
+
+            // Bind to the private/local IP rather than the advertised (public) IP.
+            // On AWS the OS cannot bind to the public IP directly — NAT is handled externally.
+            var localIP = GetLocalIPAddress();
+            options.SiloListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansSiloPort);
+            options.GatewayListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansGatewayPort);
         });
         
         builder.UseAdoNetClustering(options =>

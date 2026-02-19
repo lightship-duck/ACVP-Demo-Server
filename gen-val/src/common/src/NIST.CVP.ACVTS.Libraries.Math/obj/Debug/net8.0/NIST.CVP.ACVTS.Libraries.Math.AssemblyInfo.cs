@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Project contains math based objects for use in the ACVP project.  Namely: BitStri" +
     "ng, entropy providers, a shuffle queue, and MathDomain.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0+5307a0bea285bb85d6aa74000c3da9820bcff5f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0+79ec4eaea9659abd936164aa3b17c2ef2d173293")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACVP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NIST.CVP.ACVTS.Libraries.Math")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.0.0.0")]
