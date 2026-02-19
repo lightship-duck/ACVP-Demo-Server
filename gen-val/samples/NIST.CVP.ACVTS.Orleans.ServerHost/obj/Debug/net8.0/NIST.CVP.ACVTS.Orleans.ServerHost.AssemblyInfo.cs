@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NIST; HII-TSD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b121fee031dc65d32c96f4109a42a10dacbe2076")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5307a0bea285bb85d6aa74000c3da9820bcff5f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACVP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NIST.CVP.ACVTS.Orleans.ServerHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

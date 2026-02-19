@@ -3,6 +3,7 @@
       Centrally managed repository nuget package versioning
   -->
   <ItemGroup>
+    <PackageVersion Include="MySql.Data" Version="9.1.0" />
     <PackageVersion Include="Autofac" Version="8.0.0" />
     <PackageVersion Include="CommandLineArgumentsParser" Version="3.0.23" />
     <PackageVersion Include="CsvHelper" Version="28.0.1" />
