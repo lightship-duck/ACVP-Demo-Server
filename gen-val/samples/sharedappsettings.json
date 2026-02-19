@@ -20,7 +20,7 @@
     
     "ClusteringType": "AdoNet",
     "ClusteringInvariant": "MySql.Data.MySqlClient",
-    "ClusteringConnectionString": "Server=172.31.3.22;Port=3306;Database=orleanscluster;Uid=orleans;Pwd=orleans123;SslMode=none;AllowUserVariables=True;AllowPublicKeyRetrieval=true",    
+    "ClusteringConnectionString": "Server=SERVERIP;Port=3306;Database=orleanscluster;Uid=orleans;Pwd=orleans123;SslMode=none;AllowUserVariables=True;AllowPublicKeyRetrieval=true",    
    
   }
 }
