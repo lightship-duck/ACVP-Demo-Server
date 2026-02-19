@@ -494,27 +494,27 @@
           "runtimes/win-x64/native/comerr64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/gssapi64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/k5sprt64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/krb5_64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/krbcc64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -571,7 +571,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -580,7 +580,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -589,7 +589,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -947,10 +947,7 @@
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Common.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Common.dll": {}
         }
       },
       "NIST.CVP.ACVTS.Libraries.Crypto/3.0.0": {
@@ -960,10 +957,7 @@
           "NIST.CVP.ACVTS.Libraries.Math": "3.0.0"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Crypto.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Crypto.dll": {}
         }
       },
       "NIST.CVP.ACVTS.Libraries.Crypto.Common/3.0.0": {
@@ -972,10 +966,7 @@
           "NIST.CVP.ACVTS.Libraries.Math": "3.0.0"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Crypto.Common.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Crypto.Common.dll": {}
         }
       },
       "NIST.CVP.ACVTS.Libraries.Math/3.0.0": {
@@ -985,10 +976,7 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Math.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Math.dll": {}
         }
       },
       "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions/3.0.0": {
@@ -998,10 +986,7 @@
           "NIST.CVP.ACVTS.Libraries.Math": "3.0.0"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions.dll": {}
         }
       },
       "NIST.CVP.ACVTS.Libraries.Orleans.Grains/3.0.0": {
@@ -1013,10 +998,7 @@
           "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces": "3.0.0"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Orleans.Grains.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Orleans.Grains.dll": {}
         }
       },
       "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces/3.0.0": {
@@ -1026,10 +1008,7 @@
           "NIST.CVP.ACVTS.Libraries.Oracle.Abstractions": "3.0.0"
         },
         "runtime": {
-          "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.dll": {
-            "assemblyVersion": "3.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "NIST.CVP.ACVTS.Libraries.Orleans.Grains.Interfaces.dll": {}
         }
       }
     }

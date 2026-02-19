@@ -4,7 +4,7 @@
   "OrleansConfig": {
     "OrleansNodeConfig": [
       {
-        "HostName": "192.168.30.235",
+        "HostName": "localhost",
         "MaxConcurrentWork": 3
       }
     ],
@@ -20,7 +20,7 @@
     
     "ClusteringType": "AdoNet",
     "ClusteringInvariant": "MySql.Data.MySqlClient",
-    "ClusteringConnectionString": "Server=35.183.186.135;Port=3306;Database=orleanscluster;Uid=orleans;Pwd=orleans123;SslMode=none;AllowUserVariables=True;AllowPublicKeyRetrieval=true",    
-    "AdvertisedIP": "72.136.188.58"
+    "ClusteringConnectionString": "Server=172.31.3.22;Port=3306;Database=orleanscluster;Uid=orleans;Pwd=orleans123;SslMode=none;AllowUserVariables=True;AllowPublicKeyRetrieval=true",    
+   
   }
 }

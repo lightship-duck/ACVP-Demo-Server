@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>Project contains enums, extension methods, database helpers, and other various objects for use in the ACVP program.</description>
     <tags>nist cryptography protocol cryptographic-algorithm-validations nist-approved-algorithms</tags>
-    <repository type="git" commit="79ec4eaea9659abd936164aa3b17c2ef2d173293" />
+    <repository type="git" commit="22b11bc1f1bed65d0fa1c845d0d23cba611722db" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Autofac" version="8.0.0" exclude="Build,Analyzers" />
@@ -25,6 +25,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\coel\Documents\GitHub\ACVP-Demo-Server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Common\bin\Debug\net8.0\NIST.CVP.ACVTS.Libraries.Common.pdb" target="lib\net8.0\NIST.CVP.ACVTS.Libraries.Common.pdb" />
+    <file src="/home/ubuntu/ACVP-Demo-Server/gen-val/src/common/src/NIST.CVP.ACVTS.Libraries.Common/bin/Debug/net8.0/NIST.CVP.ACVTS.Libraries.Common.pdb" target="lib/net8.0/NIST.CVP.ACVTS.Libraries.Common.pdb" />
   </files>
 </package>

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -76,73 +76,64 @@ namespace NIST.CVP.ACVTS.Orleans.ServerHost
         }
 
         private void ConfigureClustering(ISiloHostBuilder builder)
-{
-    var clusteringType = _configuration["OrleansConfig:ClusteringType"];
-    
-    if (string.Equals(clusteringType, "AdoNet", StringComparison.OrdinalIgnoreCase))
-    {
-        // ADO.NET Clustering (MySQL, SQL Server, etc.)
-        var invariant = _configuration["OrleansConfig:ClusteringInvariant"];
-        var connectionString = _configuration["OrleansConfig:ClusteringConnectionString"];
-        var advertisedIP = _configuration["OrleansConfig:AdvertisedIP"];
-        
-        builder.Configure<EndpointOptions>(options =>
         {
-            options.SiloPort = _orleansConfig.OrleansSiloPort;
-            options.GatewayPort = _orleansConfig.OrleansGatewayPort;
-            
-            if (!string.IsNullOrEmpty(advertisedIP))
+            var clusteringType = _configuration["OrleansConfig:ClusteringType"];
+
+            if (string.Equals(clusteringType, "AdoNet", StringComparison.OrdinalIgnoreCase))
             {
-                options.AdvertisedIPAddress = IPAddress.Parse(advertisedIP);
+                // ADO.NET Clustering (MySQL, SQL Server, etc.)
+                var invariant = _configuration["OrleansConfig:ClusteringInvariant"];
+                var connectionString = _configuration["OrleansConfig:ClusteringConnectionString"];
+
+                builder.Configure<EndpointOptions>(options =>
+                {
+                    options.SiloPort = _orleansConfig.OrleansSiloPort;
+                    options.GatewayPort = _orleansConfig.OrleansGatewayPort;
+
+                    // Auto-detect private IP — no AdvertisedIP config needed.
+                    // Each silo registers its own private IP in the SQL membership table,
+                    // so silos find and connect to each other entirely over the local network.
+                    var localIP = GetLocalIPAddress();
+                    options.AdvertisedIPAddress = localIP;
+                    options.SiloListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansSiloPort);
+                    // Gateway listens on all interfaces so off-site clients can reach it via the public IP.
+                    options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Any, _orleansConfig.OrleansGatewayPort);
+                });
+
+                builder.UseAdoNetClustering(options =>
+                {
+                    options.Invariant = invariant;
+                    options.ConnectionString = connectionString;
+                });
+
+                _logger.LogInformation($"Using AdoNet clustering with {invariant}");
             }
             else
             {
-                // Auto-detect IP
-                options.AdvertisedIPAddress = GetLocalIPAddress();
+                // Default: Localhost clustering (original behavior)
+                builder.Configure<EndpointOptions>(options =>
+                {
+                    options.AdvertisedIPAddress = IPAddress.Loopback;
+                });
+                builder.UseLocalhostClustering();
+
+                _logger.LogInformation("Using localhost clustering");
             }
-
-            // Bind to the private/local IP rather than the advertised (public) IP.
-            // On AWS the OS cannot bind to the public IP directly — NAT is handled externally.
-            var localIP = GetLocalIPAddress();
-            options.SiloListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansSiloPort);
-            options.GatewayListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansGatewayPort);
-        });
-        
-        builder.UseAdoNetClustering(options =>
-        {
-            options.Invariant = invariant;
-            options.ConnectionString = connectionString;
-        });
-        
-        _logger.LogInformation($"Using AdoNet clustering with {invariant}");
-    }
-    else
-    {
-        // Default: Localhost clustering (original behavior)
-        builder.Configure<EndpointOptions>(options =>
-        {
-            options.AdvertisedIPAddress = IPAddress.Loopback;
-        });
-        builder.UseLocalhostClustering();
-        
-        _logger.LogInformation("Using localhost clustering");
-    }
-}
-
-private static IPAddress GetLocalIPAddress()
-{
-    var host = Dns.GetHostEntry(Dns.GetHostName());
-    foreach (var ip in host.AddressList)
-    {
-        if (ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork &&
-            !IPAddress.IsLoopback(ip))
-        {
-            return ip;
         }
-    }
-    return IPAddress.Loopback;
-}
 
+        private static IPAddress GetLocalIPAddress()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork &&
+                    !IPAddress.IsLoopback(ip))
+                {
+                    return ip;
+                }
+            }
+            return IPAddress.Loopback;
+        }
 
         private void ConfigureLoadShedding(ISiloHostBuilder builder)
         {
