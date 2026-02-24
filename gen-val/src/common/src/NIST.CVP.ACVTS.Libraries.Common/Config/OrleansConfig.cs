@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using System.Collections.Generic;
+using Microsoft.Extensions.Logging;
 
 namespace NIST.CVP.ACVTS.Libraries.Common.Config
 {
@@ -58,5 +59,16 @@ namespace NIST.CVP.ACVTS.Libraries.Common.Config
         /// The maximum amount of times to retry a grain request in cases of timeout or load shedding.
         /// </summary>
         public int TimeoutRetryAttempts { get; set; }
+
+        /// <summary>
+        /// The type of clustering to use. Options: "Localhost", "Static", "AdoNet"
+        /// </summary>
+        public string ClusteringType { get; set; } = "Localhost";
+
+        /// <summary>
+        /// List of peer silo IP addresses for static clustering (no database required).
+        /// Uses OrleansSiloPort for silo-to-silo communication.
+        /// </summary>
+        public List<string> StaticPeers { get; set; } = new();
     }
 }

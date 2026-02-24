@@ -8,6 +8,10 @@
         "MaxConcurrentWork": 3
       }
     ],
+    "StaticPeers": [
+      "LIST OF PEER IP'S",
+      "192.0.0.1"
+    ],
     "OrleansSiloPort": 11111,
     "OrleansGatewayPort": 30000,
     "ClusterId": "acvp-cluster",
@@ -16,11 +20,6 @@
     "FallBackMinimumCores": 3,
     "LoadSheddingCpuThreshold": 0,
     "MaxWorkItemsToQueuePerGenValInstance": 100,
-    "TimeoutRetryAttempts": 15,
-    
-    "ClusteringType": "AdoNet",
-    "ClusteringInvariant": "MySql.Data.MySqlClient",
-    "ClusteringConnectionString": "Server=172.31.3.22;Port=3306;Database=orleanscluster;Uid=orleans;Pwd=orleans123;SslMode=none;AllowUserVariables=True;AllowPublicKeyRetrieval=true",    
-   
+    "TimeoutRetryAttempts": 15
   }
 }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Project contains enums, extension methods, database helpers, and other various ob" +
     "jects for use in the ACVP program.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0+22b11bc1f1bed65d0fa1c845d0d23cba611722db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0+685a21fe983571f1046b72235e1bb64a6fcec322")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACVP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NIST.CVP.ACVTS.Libraries.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.0.0.0")]

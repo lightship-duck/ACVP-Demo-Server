@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NIST.CVP.ACVTS.Libraries.Crypto.Common
-build_property.ProjectDir = /home/ubuntu/ACVP-Demo-Server/gen-val/src/crypto/src/NIST.CVP.ACVTS.Libraries.Crypto.Common/
+build_property.ProjectDir = C:\Users\coel\Documents\GitHub\ACVP-Demo-server\gen-val\src\crypto\src\NIST.CVP.ACVTS.Libraries.Crypto.Common\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>Project contains math based objects for use in the ACVP project.  Namely: BitString, entropy providers, a shuffle queue, and MathDomain.</description>
     <tags>nist cryptography protocol cryptographic-algorithm-validations nist-approved-algorithms</tags>
-    <repository type="git" commit="22b11bc1f1bed65d0fa1c845d0d23cba611722db" />
+    <repository type="git" commit="685a21fe983571f1046b72235e1bb64a6fcec322" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="NIST.CVP.ACVTS.Libraries.Common" version="3.0.0" exclude="Build,Analyzers" />
@@ -18,6 +18,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="/home/ubuntu/ACVP-Demo-Server/gen-val/src/common/src/NIST.CVP.ACVTS.Libraries.Math/bin/Debug/net8.0/NIST.CVP.ACVTS.Libraries.Math.pdb" target="lib/net8.0/NIST.CVP.ACVTS.Libraries.Math.pdb" />
+    <file src="C:\Users\coel\Documents\GitHub\ACVP-Demo-server\gen-val\src\common\src\NIST.CVP.ACVTS.Libraries.Math\bin\Debug\net8.0\NIST.CVP.ACVTS.Libraries.Math.pdb" target="lib\net8.0\NIST.CVP.ACVTS.Libraries.Math.pdb" />
   </files>
 </package>

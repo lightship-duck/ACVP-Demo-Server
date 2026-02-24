@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -75,52 +76,77 @@ namespace NIST.CVP.ACVTS.Orleans.ServerHost
             await _silo.StopAsync(cancellationToken);
         }
 
-        private void ConfigureClustering(ISiloHostBuilder builder)
+       private void ConfigureClustering(ISiloHostBuilder builder)
+{
+    var clusteringType = _configuration["OrleansConfig:ClusteringType"];
+
+    if (string.Equals(clusteringType, "AdoNet", StringComparison.OrdinalIgnoreCase))
+    {
+        var invariant = _configuration["OrleansConfig:ClusteringInvariant"];
+        var connectionString = _configuration["OrleansConfig:ClusteringConnectionString"];
+
+        builder.Configure<EndpointOptions>(options =>
         {
-            var clusteringType = _configuration["OrleansConfig:ClusteringType"];
+            options.SiloPort = _orleansConfig.OrleansSiloPort;
+            options.GatewayPort = _orleansConfig.OrleansGatewayPort;
+            var localIP = GetLocalIPAddress();
+            options.AdvertisedIPAddress = localIP;
+            options.SiloListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansSiloPort);
+            options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Any, _orleansConfig.OrleansGatewayPort);
+        });
 
-            if (string.Equals(clusteringType, "AdoNet", StringComparison.OrdinalIgnoreCase))
+        builder.UseAdoNetClustering(options =>
+        {
+            options.Invariant = invariant;
+            options.ConnectionString = connectionString;
+        });
+
+        _logger.LogInformation($"Using AdoNet clustering with {invariant}");
+    }
+    else if (string.Equals(clusteringType, "Static", StringComparison.OrdinalIgnoreCase))
+    {
+        // Parse gateway endpoints from config: "ip:port" strings
+        var gatewayEndpoints = _orleansConfig.StaticPeers
+            .Select(entry =>
             {
-                // ADO.NET Clustering (MySQL, SQL Server, etc.)
-                var invariant = _configuration["OrleansConfig:ClusteringInvariant"];
-                var connectionString = _configuration["OrleansConfig:ClusteringConnectionString"];
+                var parts = entry.Split(':');
+                if (parts.Length != 2 || !int.TryParse(parts[1], out var port))
+                    throw new InvalidOperationException($"Invalid StaticGateway entry: '{entry}'. Expected format: 'ip:port'");
+                return new IPEndPoint(IPAddress.Parse(parts[0]), port);
+            })
+            .ToList();
 
-                builder.Configure<EndpointOptions>(options =>
-                {
-                    options.SiloPort = _orleansConfig.OrleansSiloPort;
-                    options.GatewayPort = _orleansConfig.OrleansGatewayPort;
+        var localIP = GetLocalIPAddress();
 
-                    // Auto-detect private IP — no AdvertisedIP config needed.
-                    // Each silo registers its own private IP in the SQL membership table,
-                    // so silos find and connect to each other entirely over the local network.
-                    var localIP = GetLocalIPAddress();
-                    options.AdvertisedIPAddress = localIP;
-                    options.SiloListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansSiloPort);
-                    // Gateway listens on all interfaces so off-site clients can reach it via the public IP.
-                    options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Any, _orleansConfig.OrleansGatewayPort);
-                });
+        builder.Configure<EndpointOptions>(options =>
+        {
+            options.SiloPort = _orleansConfig.OrleansSiloPort;
+            options.GatewayPort = _orleansConfig.OrleansGatewayPort;
+            options.AdvertisedIPAddress = localIP;
+            options.SiloListeningEndpoint = new IPEndPoint(localIP, _orleansConfig.OrleansSiloPort);
+            options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Any, _orleansConfig.OrleansGatewayPort);
+        });
 
-                builder.UseAdoNetClustering(options =>
-                {
-                    options.Invariant = invariant;
-                    options.ConnectionString = connectionString;
-                });
+        // UseStaticClustering tells this silo to find peers via the hardcoded gateway list.
+        // Each silo in the list must be running and reachable at its gateway port.
+        var primarySilo = gatewayEndpoints.First();
+        builder.UseDevelopmentClustering(primarySilo);
+        
+        _logger.LogInformation($"Using static clustering with {gatewayEndpoints.Count} gateway(s): " +
+                               string.Join(", ", gatewayEndpoints));
+    }
+    else
+    {
+        // Default: Localhost clustering
+        builder.Configure<EndpointOptions>(options =>
+        {
+            options.AdvertisedIPAddress = IPAddress.Loopback;
+        });
+        builder.UseLocalhostClustering();
 
-                _logger.LogInformation($"Using AdoNet clustering with {invariant}");
-            }
-            else
-            {
-                // Default: Localhost clustering (original behavior)
-                builder.Configure<EndpointOptions>(options =>
-                {
-                    options.AdvertisedIPAddress = IPAddress.Loopback;
-                });
-                builder.UseLocalhostClustering();
-
-                _logger.LogInformation("Using localhost clustering");
-            }
-        }
-
+        _logger.LogInformation("Using localhost clustering");
+    }
+}
         private static IPAddress GetLocalIPAddress()
         {
             var host = Dns.GetHostEntry(Dns.GetHostName());
